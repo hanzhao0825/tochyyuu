@@ -1,0 +1,21 @@
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatchandroid/ddm/DdmHandleProfiling.handleChunk;android/ddm/DdmHandleProfiling.handleMPSE;android/os/Debug.stopMethodTracing;dalvik/system/VMDebug.stopMethodTracing; 	 0
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatch;android/ddm/DdmHandleProfiling.handleChunk 	 0
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatchandroid/ddm/DdmHandleProfiling.handleChunk;android/ddm/DdmHandleProfiling.handleMPSE; 	 31
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatchjava/util/HashMap.get;java/lang/Integer.equals; 	 0
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatch;android/ddm/DdmHandleProfiling.handleChunk;android/ddm/DdmHandleProfiling.handleMPSS;android/os/Debug.startMethodTracingDdms 	 31
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatchandroid/ddm/DdmHandleProfiling.handleChunk; 	 152
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatchjava/lang/Integer.valueOf;java/lang/Integer.<init>; 	 61
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatch 	 153
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatchorg/apache/harmony/dalvik/ddmc/Chunk.<init>; 	 30
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatch;android/ddm/DdmHandleProfiling.handleChunk;android/ddm/DdmHandleProfiling.handleMPSS;android/os/Debug.startMethodTracingDdms;dalvik/system/VMDebug.startMethodTracingDdms 	 641
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatchandroid/ddm/DdmHandleProfiling.handleChunk;android/ddm/DdmHandleProfiling.handleMPSE;android/os/Debug.stopMethodTracing; 	 0
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatchandroid/ddm/DdmHandleProfiling.handleChunk;android/ddm/DdmHandleProfiling.handleMPRQ;android/os/Debug.isMethodTracingActive;dalvik/system/VMDebug.isMethodTracingActive; 	 31
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatchjava/lang/Integer.valueOf;java/lang/Integer.<init>;java/lang/Number.<init>; 	 0
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatchandroid/ddm/DdmHandleProfiling.handleChunk;android/ddm/DdmHandleProfiling.handleMPRQ;org/apache/harmony/dalvik/ddmc/Chunk.<init>; 	 0
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatchandroid/ddm/DdmHandleProfiling.handleChunk;android/ddm/DdmHandleProfiling.handleMPRQ; 	 0
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatchjava/lang/Integer.valueOf; 31
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatchandroid/ddm/DdmHandleProfiling.handleChunk;android/ddm/DdmHandleProfiling.handleMPRQ;android/os/Debug.isMethodTracingActive; 	 0
+
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatchjava/util/HashMap.get;java/lang/Integer.hashCode; 	 0
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatch;android/ddm/DdmHandleProfiling.handleChunk;android/ddm/DdmHandleProfiling.handleMPSS 	 0
+ALL;org/apache/harmony/dalvik/ddmc/DdmServer.dispatchjava/util/HashMap.get; 	 61
