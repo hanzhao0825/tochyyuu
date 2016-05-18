@@ -1,4 +1,5 @@
 Usage:
+
 1. Start an application in Eclipse/AndroidStudio
 2. Switch to DDMS page
 3. Click “Start Method Profiling”
