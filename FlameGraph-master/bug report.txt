@@ -1,0 +1,61 @@
+Ushahidi : https://github.com/ushahidi/Ushahidi_Android/
+146 VH - You are right. Those adapters need refactoring. Thanks for reporting this.
+159 LM - Thanks for reporting this. I'll take a look at it. Just curious, where is this static code checker? Anywhere I can play with it as well? Thanks
+
+c:geo : https://github.com/cgeo
+3054 LM - Thank you for analyzing the code. So far there is no obvious performance lack. But however, this will help us to improve. If you find time to fix something yourself, feel free.
+
+Omnidroid : https://code.google.com/archive/p/omnidroid/
+182 VH - no reply
+183 LM - no reply
+
+Open GPS Tracker : https://code.google.com/p/open-gpstracker/
+390 VH - no reply
+
+Geohash Droid : https://code.google.com/p/geohashdroid/
+48 LM - no reply
+
+Android Wifi Tether : https://code.google.com/p/android-wifi-tether/
+1829 VH - no reply
+1856 LM - no reply
+
+Osmand : https://code.google.com/archive/p/osmand/
+1977 VH - Will take into account, but have many plans to fix other bugs. Feel free to create & sow how to do it via pull-request on github.
+2025 LM - Mostly they are on click & don't really affect User Interface. May be from some we could really win, but for some it is better to leave the codebase clear & better maintainable
+
+My Tracks : https://code.google.com/archive/p/mytracks/
+1327 VH - Thanks for the suggestion. I will make the changes. But might not make the next release/
+
+WebSMS : https://code.google.com/p/websmsdroid
+801 LM - well, you are totally right. the thing is, websms was my first android app and it is a port from j2me. it has a very old code base and is quite odd in many cases. :x if i would write the app from scratch, i would do most of the things very different. i once started to refactor the code. but in the end, i gave up. there were other important things to do. and the user base is shrinking. just because sms usage is shrinking globally. if you want to make the app better in any case. just fork it on github and let me merge your changes. i'd be very thankful. :)
+
+XBMC Remote : https://code.google.com/archive/p/android-xbmcremote
+714 VH - no reply
+
+ConnectBot : https://code.google.com/p/connectbot
+658 LM - no reply
+
+Firefox : https://mxr.mozilla.org/
+Bugzilla prevented you from logging in from a page containing private information.
+
+APG : https://code.google.com/archive/p/android-privacy-guard/
+140 VH - no reply
+144 LM - no reply
+
+FBReaderJ : https://github.com/geometer/FBReaderJ
+148 VH - I'm not sure I understand your idea. Do you mean findViewById is not efficient? / I see, thank you! / FIxed in 1.9
+151 LM - GUI - no reply
+
+Bitcoin Wallet : https://github.com/bitcoin-wallet/bitcoin-wallet
+Issue ID 190 not found
+
+AnySoftKeyboard : https://github.com/AnySoftKeyboard/AnySoftKeyboard
+190 VH - thanks for providing this analysis! I'll look into that and apply your suggestions. Thanks!
+
+OI File Manager : https://github.com/openintents/filemanager
+39 VH - Hey Andrew, thanks for reporting this. The ViewHolder pattern has just been added to the BookmarkListAdapter in 8c9c429.
+
+IMSDroid : https://code.google.com/archive/p/imsdroid
+457 VH : no reply
+
+1. “VH” means “Violation of the view Holder pattern”, and “LM” means “Lengthy operations in Main threads”.2. Underlined bug pattern instances have been confirmed by developers as real performance issues, and “*” marked instances have been fixed by developers accordingly. For more details, readers can visit corresponding subject’s source repositories and bug tracking systems by our provided links and bug IDs.
