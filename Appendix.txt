@@ -1,0 +1,92 @@
+附录
+
+GUI回调函数的列表 - ListenerList
+
+android.widget.AbsListView$OnScrollListener
+android.widget.AdapterView$OnItemClickListener
+android.widget.AdapterView$OnItemLongClickListener
+android.widget.AdapterView$OnItemSelectedListener
+android.view.View$OnClickListener
+android.view.View$OnLongClickListener
+android.view.View$OnFocusChangeListener
+android.view.View$OnKeyListener
+android.view.View$OnTouchListener
+android.view.View$OnCreateContextMenuListener
+android.widget.CalendarView$OnDateChangeListener
+android.widget.AutoCompleteTextView$OnDismissListener
+android.widget.Chronometer$OnChronometerTickListener
+android.widget.CompoundButton$OnCheckedChangeListener
+android.widget.DatePicker$OnDateChangedListener
+android.widget.ExpandableListView$OnChildClickListener
+android.widget.ExpandableListView$OnGroupClickListener
+android.widget.ExpandableListView$OnGroupCollapseListener
+android.widget.ExpandableListView$OnGroupExpandListener
+android.widget.NumberPicker$OnScrollListener
+android.widget.NumberPicker$OnValueChangeListener
+android.widget.PopupMenu$OnDismissListener
+android.widget.PopupMenu$OnMenuItemClickListener
+android.widget.PopupWindow$OnDismissListener
+android.widget.RadioGroup$OnCheckedChangeListener
+android.widget.RatingBar$OnRatingBarChangeListener
+android.widget.SearchView$OnCloseListener
+android.widget.SearchView$OnQueryTextListener
+android.widget.SearchView$OnSuggestionListener
+android.widget.SeekBar$OnSeekBarChangeListener
+android.widget.ShareActionProvider$OnShareTargetSelectedListener
+android.widget.SlidingDrawer$OnDrawerCloseListener
+android.widget.SlidingDrawer$OnDrawerOpenListener
+android.widget.SlidingDrawer$OnDrawerScrollListener
+android.widget.TabHost$OnTabChangeListener
+android.widget.TextView$OnEditorActionListener
+android.widget.TimePicker$OnTimeChangedListener
+android.widget.ZoomButtonsController$OnZoomListener
+
+
+复杂操作的函数签名列表 - LengthyOprList
+
+java.net.URL, <java.net.URL: java.net.URLConnection openConnection()>
+java.net.URL, <java.net.URL: java.io.InputStream openStream()>
+java.net.URL, <java.net.URL: java.lang.Object getContent()>
+java.net.URL, <java.net.URL: java.lang.Object getContent(java.lang.Class[])>
+java.net.URLConnection, <java.net.URLConnection: java.io.InputStream getInputStream()>
+java.net.URLConnection, <java.net.URLConnection: java.io.OutputStream getOutputStream()>
+java.net.URLConnection, <java.net.URLConnection: java.lang.Object getContent()>
+java.net.URLConnection, <java.net.URLConnection: java.lang.Object getContent(java.lang.Class[])>
+java.net.URLConnection, <java.net.URLConnection: java.lang.String getContentEncoding()>
+java.net.URLConnection, <java.net.URLConnection: java.lang.String getContentType()>
+java.net.URLConnection, <java.net.URLConnection: int getContentLength()>
+android.database.sqlite.SQLiteDatabase, <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>
+android.database.sqlite.SQLiteDatabase, <android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String,java.lang.Object[])>
+android.database.sqlite.SQLiteDatabase, <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+android.database.sqlite.SQLiteDatabase, <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String,android.os.CancellationSignal)>
+android.database.sqlite.SQLiteDatabase, <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>
+android.database.sqlite.SQLiteDatabase, <android.database.sqlite.SQLiteDatabase: android.database.Cursor query(boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+android.database.sqlite.SQLiteDatabase, <android.database.sqlite.SQLiteDatabase: android.database.Cursor queryWithFactory(android.database.sqlite.SQLiteDatabase$CursorFactory,boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String,android.os.CancellationSignal)>
+android.database.sqlite.SQLiteDatabase, <android.database.sqlite.SQLiteDatabase: android.database.Cursor queryWithFactory(android.database.sqlite.SQLiteDatabase$CursorFactory,boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+android.database.sqlite.SQLiteDatabase, <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)>
+android.database.sqlite.SQLiteDatabase, <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])>
+android.database.sqlite.SQLiteDatabase, <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQueryWithFactory(android.database.sqlite.SQLiteDatabase$CursorFactory,java.lang.String,java.lang.String[],java.lang.String)>
+android.database.sqlite.SQLiteDatabase, <android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQueryWithFactory(android.database.sqlite.SQLiteDatabase$CursorFactory,java.lang.String,java.lang.String[],java.lang.String,android.os.CancellationSignal)>
+android.context.ContextWrapper, <android.context.ContextWrapper: java.io.FileInputStream openFileInput(java.lang.String)>
+android.context.ContextWrapper, <android.context.ContextWrapper: java.io.FileOutputStream openFileOutput(java.lang.String,int)>
+java.io.Reader, <java.io.Reader: int read()>
+java.io.Reader, <java.io.Reader: int read(char[])>
+java.io.Reader, <java.io.Reader: int read(java.nio.CharBuffer)>
+java.io.InputStreamReader, <java.io.InputStreamReader: int read()>
+java.io.InputStreamReader, <java.io.InputStreamReader: int read(char[],int,int)>
+java.io.BufferedReader, <java.io.BufferedReader: int read()>
+java.io.BufferedReader, <java.io.BufferedReader: int read(char[],int,int)>
+java.io.BufferedReader, <java.io.BufferedReader: java.lang.String readLine()>
+java.io.Writer, <java.io.Writer: java.io.Writer append(char)>
+java.io.Writer, <java.io.Writer: java.io.Writer append(java.lang.CharSequence)>
+java.io.Writer, <java.io.Writer: java.io.Writer append(java.lang.CharSequence,int,int)>
+java.io.Writer, <java.io.Writer: void write(char[])>
+java.io.Writer, <java.io.Writer: void write(int)>
+java.io.Writer, <java.io.Writer: void write(java.lang.String)>
+java.io.Writer, <java.io.Writer: void write(java.lang.String,int,int)>
+java.io.BufferedWriter, <java.io.BufferedWriter: void write(char[],int,int)>
+java.io.BufferedWriter, <java.io.BufferedWriter: void write(int)>
+java.io.BufferedWriter, <java.io.BufferedWriter: void write(java.lang.String,int,int)>
+android.graphics.BitmapFactory, <android.graphics.BitmapFactory: android.graphics.Bitmap decodeFile(java.lang.String,android.graphics.BitmapFactory$Options)>
+android.graphics.Bitmap, <android.graphics.Bitmap: boolean compress(android.graphics.Bitmap$CompressFormat,int,java.io.OutputStream)>
+```
