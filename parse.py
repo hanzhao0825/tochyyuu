@@ -126,7 +126,8 @@ for i in temp_output.keys():
 output["ALL"] = blank
 
 file = open("./result.txt", 'w+')
-for i in output.keys():
-    print(i, "\t", output[i], file=file)
+output_list = sorted(output.items(), key=lambda d:d[0])
+for i in output_list:
+    print(i[0], '\t', i[1], file=file)
 file.close()
 
